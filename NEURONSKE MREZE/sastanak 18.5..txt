@@ -1,0 +1,41 @@
+u wordu objasniti eksel fajlove
+
+poslednjih 24 sata je trend, buducih 12 sata
+u stekovima od 24 sata (prva 24 sata ne mozemo da racunamo)
+
+ulaz: - sta se desavalo  u prethodnih 24h (izvuci jednu vrednost i to je vrednost 24. sata)
+	- sentiment
+izlaz: - predvidja trend u procentima
+
+2 eksperimenta: - predvidjamo vrednost trenda (predvidjanje)
+		- predvidjamo samo da li raste ili opada (klasifikacija)
+
+prosli trend:
+1. uslov: da bi bila pozivitna: vise pozitivnih od negativnih sati
+2. uslov: da bi bila pozitivna: cena u 24. satu da bude ceva nego u prvom
+
+buduci trend:
+razlika izmedju cene za 12 sati i sadasnje cene
+
+
+LEPO BI BILO odraditi statistiku (proseci, standardne devijacije)
+
+
+70 30 trening test
+
+do 1.3. treniramo, posle testiramo
+prethodni i sentiment su X1 i X2, buduci je Y
+DO 1.3. hranimo mrezu sa sva 3, OD 1.3. testiramo ubacujuci samo X1 i X2 i vrsimo evaluaciju modela
+
+
+rmse
+mean abs err
+
+f h -> i
+g h -> j
+
+
+Nemoj da testiras model nad onim danima u aprilu u kojima fale podaci 
+
+
+
